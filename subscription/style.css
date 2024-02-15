@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.title{
+    text-align: center;
+    background-color: pink;
+    
+
+}
+.container{
+    padding: 30px;
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+    
+}
+.Subscription__details{
+    margin-top: 10px;
+    border: 2px solid black;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+
+}
+.Subscription__details ul{
+    border: 1px solid white;
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    padding: 10px;
+
+    
+}
+.Subscription__details h1,h2,h3{
+    text-align: center;
+}
